@@ -23,7 +23,7 @@ num_tuning_iterations=$2
 loop_limit=( $( expr $num_tuning_iterations - 1 ) )
 for i in $(seq 0 $loop_limit)
 do
-  sbatch wrapper.inner.sh $cell_line $i
+  sbatch wrapper.tuning.inner.sh $cell_line $i
 done
 
 
