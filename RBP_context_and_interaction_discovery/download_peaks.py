@@ -4,6 +4,9 @@
 # December 20, 2023
 # Fetch metadata eCLIP data and download peaks from the ENCODE portal using the REST API.
 
+# Copyright (c) 2024 Shaimae I. Elhajjajy
+# This code is licensed under the MIT License (see LICENSE.txt for details)
+
 # Load packages
 import json
 import numpy as np
