@@ -20,10 +20,10 @@ cell_line=$1
 metadata=$2
 
 # Set working directories
-MAIN_DIR=/data/zusers/elhajjajys/RBP_prediction
+MAIN_DIR=./RBP_prediction
 WORKING_DIR=$MAIN_DIR/nlp/method2/baseline_on_contexts/results_allRBPs_tuning_denseEmbed_051123
 
-LOG_DIR=/zata/zippy/elhajjajys/slurm_logs/RBP_prediction/oldcode_chromCV_relabel_041524/$cell_line/relabeling_newfit
+LOG_DIR=./slurm_logs/RBP_prediction/oldcode_chromCV_relabel_041524/$cell_line/relabeling_newfit
 mkdir -p $LOG_DIR
 
 # Get number of RBPs
