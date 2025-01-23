@@ -31,13 +31,13 @@ extension=$3
 ## Set directories
 METADATA=/home/elhajjajys/metadata
 DOCKER=/home/elhajjajys/bin/python3-R.simg
-GENOMES=/data/zusers/elhajjajys/genomes
-MAIN_DIR=/data/zusers/elhajjajys/RBP_prediction/training_sequences/eCLIP_only
+GENOMES=./genomes
+MAIN_DIR=./RBP_prediction/training_sequences/eCLIP_only
 SCRIPT_DIR=$MAIN_DIR/scripts
 OUT_DIR=$MAIN_DIR/results/ext_$extension
-CLASSIFIED_PEAKS_DIR=/data/zusers/elhajjajys/classified_by_genomic_region/eCLIP_peaks/$genome_annot
-GTF_DIR=/data/zusers/elhajjajys/classified_by_genomic_region/gtfs/$genome_annot
-BIGWIGS=/data/zusers/elhajjajys/eCLIP_data/merged_bigWigs
+CLASSIFIED_PEAKS_DIR=./classified_by_genomic_region/eCLIP_peaks/$genome_annot
+GTF_DIR=./classified_by_genomic_region/gtfs/$genome_annot
+BIGWIGS=./eCLIP_data/merged_bigWigs
 
 # Extract metadata
 numExps=$( wc -l $METADATA/$metadata | cut -f 1 -d " " | awk '{print $1 - 1}' )
