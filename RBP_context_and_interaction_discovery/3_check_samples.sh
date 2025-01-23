@@ -20,7 +20,7 @@ positive_seq=$2
 extension=$3
 
 # Set directories
-GENOMES=/data/zusers/elhajjajys/genomes
+GENOMES=./genomes
 
 out_file_ID=`basename $sampled_regions ".bed"`
 
