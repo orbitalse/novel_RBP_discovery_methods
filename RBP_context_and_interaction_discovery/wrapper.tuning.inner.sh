@@ -39,9 +39,9 @@ threshold=0.5
 num_iterations=3
 
 # Set working directories
-MAIN_DIR=/data/zusers/elhajjajys/RBP_prediction
+MAIN_DIR=./RBP_prediction
 DATA_DIR=$MAIN_DIR/training_sequences/eCLIP_only/results/ext_50/$cell_line
-WORKING_DIR=/data/zusers/elhajjajys/RBP_prediction/nlp/method2/baseline_on_contexts/results_allRBPs_tuning_denseEmbed_051123
+WORKING_DIR=$MAIN_DIR/nlp/method2/baseline_on_contexts/results_allRBPs_tuning_denseEmbed_051123
 OUT_DIR=$WORKING_DIR/$cell_line
 DOCKER=/home/elhajjajys/bin/python3-R.simg
 
